@@ -1,5 +1,7 @@
 
-import SABR.Types
+module VolatilityModel where
+
+import Types
 
 -- | SABR Volatility of an option  based on a given set of SABR parameters
 SABR_Volatility :: Double -> Double -> Double -> SABR_ParameterSet -> Double
